@@ -10,7 +10,7 @@ pages:
     file: pages/Banana.wiki
   Cucumber:
     file: pages/Cucumber.wiki
-    last_updated: "2025-10-14T00:00:00Z"
+    last_updated: "2025-10-15T00:00:00Z"
   Eggplant:
     file: pages/Eggplant.wiki
     last_updated: "2025-10-14T00:00:00Z"
@@ -29,7 +29,7 @@ packs:
       - templates
   vegetables:
     description: yucky!
-    version: 0.1.0
+    version: 0.2.0
     pages:
       - Cucumber
       - Eggplant

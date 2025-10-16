@@ -1,6 +1,8 @@
 Nobody likes these
 
+And now there's new text here
+
 {{BasicInfo
 |Name=Cucumber
-|Color=Green
+|Color=Greenish Yellow
 }}
