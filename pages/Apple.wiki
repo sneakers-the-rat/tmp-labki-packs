@@ -1,0 +1,6 @@
+It's an apple baby!
+
+{{BasicInfo
+ |Name=Apple
+ |Color=Red
+}}

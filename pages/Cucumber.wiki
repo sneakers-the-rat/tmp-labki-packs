@@ -1,0 +1,6 @@
+Nobody likes these
+
+{{BasicInfo
+|Name=Cucumber
+|Color=Green
+}}

@@ -1,0 +1,6 @@
+arguably the king of the vegetables
+
+{{BasicInfo
+|Name=Eggplant
+|Color=Purple
+}}

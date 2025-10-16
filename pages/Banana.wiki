@@ -1,0 +1,6 @@
+Long and yellow, the one that comes with its own wrapper!
+
+{{BasicInfo
+|Name=Banana
+|Color=Yellow
+}}

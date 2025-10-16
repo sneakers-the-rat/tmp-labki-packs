@@ -1,0 +1,17 @@
+<noinclude>
+It's for like saying basic stuff about other stuff
+
+<pre>
+{{BasicInfo
+|Name=
+|Color=
+}}
+</pre>
+</noinclude>
+<includeonly>
+== Basic Info ==
+
+* Name: {{{ Name| }}}
+* Color: {{{ Color| }}}
+</includeonly>
+

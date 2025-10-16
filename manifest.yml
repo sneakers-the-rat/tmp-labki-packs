@@ -1,0 +1,43 @@
+schema_version: "1.0.0"
+last_updated: "2025-10-14T00:00:00Z"
+name: "Lab Operations"
+
+pages:
+  Apple:
+    file: pages/Apple.wiki
+    last_updated: "2025-10-14T00:00:00Z"
+  Banana:
+    file: pages/Banana.wiki
+  Cucumber:
+    file: pages/Cucumber.wiki
+    last_updated: "2025-10-14T00:00:00Z"
+  Eggplant:
+    file: pages/Eggplant.wiki
+    last_updated: "2025-10-14T00:00:00Z"
+  "Template:BasicInfo":
+    file: pages/Template_Basic_Info.wiki
+    last_updated: "2025-10-14T00:00:00Z"
+
+packs:
+  fruits:
+    description: Some fruits
+    version: 0.1.0
+    pages:
+      - Apple
+      - Banana
+    depends_on:
+      - templates
+  vegetables:
+    description: yucky!
+    version: 0.1.0
+    pages:
+      - Cucumber
+      - Eggplant
+    depends_on:
+      - templates
+  templates:
+    description: shared templates
+    version: 0.1.0
+    pages:
+      - "Template:BasicInfo"
+    depends_on: []
