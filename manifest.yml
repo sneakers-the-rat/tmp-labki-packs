@@ -14,6 +14,12 @@ pages:
   Eggplant:
     file: pages/Eggplant.wiki
     last_updated: "2025-10-14T00:00:00Z"
+  Pork:
+    file: pages/Pork.wiki
+    last_updated: "2025-10-17T00:00:00Z"
+  Chicken:
+    file: pages/Chicken.wiki
+    last_updated: "2025-10-17T00:00:00Z"
   "Template:BasicInfo":
     file: pages/Template_Basic_Info.wiki
     last_updated: "2025-10-14T00:00:00Z"
@@ -35,6 +41,12 @@ packs:
       - Eggplant
     depends_on:
       - templates
+  meats:
+    description: Some meats
+    version: 0.1.0
+    pages:
+      - Pork
+      - Chicken
   templates:
     description: shared templates
     version: 0.1.0
