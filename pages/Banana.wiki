@@ -1,5 +1,7 @@
 Long and yellow, the one that comes with its own wrapper!
 
+Some new text was added to this page!
+
 {{BasicInfo
 |Name=Banana
 |Color=Yellow
