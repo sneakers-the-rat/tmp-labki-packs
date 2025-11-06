@@ -60,7 +60,7 @@ packs:
     file: pages/xss.wiki
     last_updated: "2025-11-01T00:00:00Z"
     description: "<script>window.alert('pack description');</script>"
-  "<script>window.alert('pack2');</script>":
+  "\"><script>window.alert('pack2');</script>":
     file: pages/xss.wiki
     last_updated: "2025-11-01T00:00:00Z"
     description: "<script>window.alert('pack description');</script>"
