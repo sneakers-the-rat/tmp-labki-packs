@@ -56,19 +56,16 @@ packs:
     pages:
       - "Template:BasicInfo"
     depends_on: []
-  "<script>window.alert('pack');</script>":
+  "<img src=\"x\" onerror=\"window.alert(`regular xss on ${document.domain}`)\">":
     file: pages/xss.wiki
     last_updated: "2025-11-01T00:00:00Z"
-    description: "<script>window.alert('pack description');</script>"
-  "<script>window.alert('pack2');</script>":
-    file: pages/xss.wiki
-    last_updated: "2025-11-01T00:00:00Z"
-    description: "<script>window.alert('pack description');</script>"
+    description: "<img src=\"x\" onerror=\"window.alert(`regular description xss on ${document.domain}`)\">"
     depends_on: 
-      - "<script>window.alert('pack');</script>"
-  "<img src=\"x\" onerror=\"document.write(`xss on ${document.domain}`)\">$$\\\\text{Alice}$$":
+      - "<img src=\"x\" onerror=\"window.alert(`regular depends xss on ${document.domain}`)\">"
+
+  "<img src=\"x\" onerror=\"window.alert(`CVE-2025-54881 xss on ${document.domain}`)\">$$\\\\text{Alice}$$":
     file: pages/xss.wiki
-        last_updated: "2025-11-01T00:00:00Z"
-    description: "<script>window.alert('pack description');</script>"
+    last_updated: "2025-11-01T00:00:00Z"
+    description: "<img src=\"x\" onerror=\"window.alert(`xss description CVE-2025-54881 on ${document.domain}`)\">$$\\\\text{Alice}$$"
     depends_on: 
       - "<script>window.alert('pack');</script>"
