@@ -23,6 +23,9 @@ pages:
   "Template:BasicInfo":
     file: pages/Template_Basic_Info.wiki
     last_updated: "2025-10-14T00:00:00Z"
+  "<script>window.alert('page');</script>":
+    file: pages/xss.wiki
+    last_updated: "2025-11-01T00:00:00Z"
 
 packs:
   fruits:
@@ -53,3 +56,13 @@ packs:
     pages:
       - "Template:BasicInfo"
     depends_on: []
+  "<script>window.alert('pack');</script>":
+    file: pages/xss.wiki
+    last_updated: "2025-11-01T00:00:00Z"
+    description: "<script>window.alert('pack description');</script>"
+  "<script>window.alert('pack2');</script>":
+    file: pages/xss.wiki
+    last_updated: "2025-11-01T00:00:00Z"
+    description: "<script>window.alert('pack description');</script>"
+    depends_on: 
+      - "<script>window.alert('pack');</script>"
